@@ -1,0 +1,71 @@
+<!Doctype Html>
+<Html>   
+<Head>    
+<style>
+.dropbtn {
+    background-color:skyblue;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative
+}
+.dropdown-content {
+    position: absolute;
+    right:0;
+    background-color: white;
+    min-width: 160px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: skyblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+</style>
+</Head>
+<body><nav>
+  <h1>Insurance Policy Managment</h1>
+  <div class="dropdown" style="float: right">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content" style="right:0%">
+    <ul>
+      <li><a routerLink="" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/admin" routerLinkActive="active">Admin</a></li>
+      <li><a routerLink="/login" routerLinkActive="active">User</a></li>
+      <li><a routerLink="/register" routerLinkActive="active">Register</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li></ul>
+</div>
+</div></nav>
+</body> 
+</Html><!--<nav>
+  <h1>Insurance Managment</h1>
+  <div class="nav_items">
+
+
+  <li><a routerLink="" routerLinkActive="active">Home</a></li> 
+  <li><a routerLink="/admin" routerLinkActive="active">Admin</a></li>
+  <li><a routerLink="/login" routerLinkActive="active">User</a></li>
+  <li><a routerLink="/register" routerLinkActive="active">Register</a></li>
+  <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+</div>
+</nav>-->

@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+}
+
+.admin-main {
+  margin: 0px 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.actionBtn {
+  background-color: brown;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  border: none;
+  width: 82px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actionBtn:hover  {
+ background-color: brown;
+}
+
+.searchTextField {
+ height: 30px;
+  width: 170px;
+  border-radius: 5px;
+  padding-left: 5px
+}
+
+.loginForm {
+background-color: white;
+border-spacing: 15px;
+padding: 10px;
+margin-top:100px;
+text-align: center;
+}
+
+.login-div {
+  margin: auto;
+  height: auto;
+  width: 600px;
+}
+
+.bgimage {
+  background-size: cover;
+}
+
+h3 > a {
+  color: black;
+}

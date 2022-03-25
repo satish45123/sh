@@ -1,0 +1,52 @@
+<app-userheader></app-userheader>
+<body>
+    <div class="container">
+      <div class="text-center bg">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="main-content">
+        <div class="left-content">
+          <h3 style="margin-bottom: 10px;">Drop a message</h3>
+          <form #adminForm="ngForm" (ngSubmit)="onSubmit()">
+            <table>
+              <tbody>
+                <tr>
+                  <td><label class="form-label">Full Name</label></td>
+                  <td><label class="form-label ml-2">Phone No.</label></td>
+                </tr>
+                <tr>
+                  <td><input type="text" class="form-control border" placeholder="Enter Name"></td>
+                  <td><input type="text" class="form-control ml-2 border" placeholder="Enter No."></td>
+                </tr>
+                <tr>
+                  <td><label class="form-label">Email address</label></td>
+                  <td><label class="form-label ml-2">Subject</label></td>
+                </tr>
+                <tr>
+                  <td><input type="email" class="form-control border" placeholder="Enter Email"></td>
+                  <td><input type="email" class="form-control ml-2 border" placeholder="Enter Subject"></td>
+                </tr>
+                <tr>
+                  <td><label class="form-label">Message</label></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><textarea rows="2" class="border">Type here</textarea></td>
+                </tr>
+
+              </tbody>
+            </table>
+            <input style="background-color: skyblue;"type="submit" value="Add">
+          </form>
+        </div>
+        <div class="right-content">
+          <h3 style="margin-bottom: 10px;">Contact Information</h3>
+          <p class="d-flex"><i class="fas fa-map-marker-alt" style="margin: 5px 10px 0 0;"></i><span> Ashok nagar new delhi 110001</span></p>
+          <p class="d-flex"><i class="fas fa-phone-alt" style="margin: 5px 10px 0 0;"></i><span>+91 9876543210</span></p>
+          <p class="d-flex"><i class="fas fa-envelope" style="margin: 5px 10px 0 0;"></i><span>insurance@gmail.com</span></p>
+          <p class="d-flex"><i class="fas fa-globe" style="margin: 5px 10px 0 0;"></i><span>www.policyinsurance.com</span></p>
+        </div>
+      </div>
+    </div>  
+
+
+</body>
